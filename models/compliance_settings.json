@@ -1,0 +1,29 @@
+{
+  "model_type": "CatBoostClassifier",
+  "catboost_version": "1.2.10",
+  "features": [
+    "Supplier",
+    "Item_Category",
+    "Quantity",
+    "Unit_Price",
+    "Negotiated_Price"
+  ],
+  "categorical_features": [
+    "Supplier",
+    "Item_Category"
+  ],
+  "positive_class": 1,
+  "positive_class_meaning": "Non-compliant",
+  "threshold": 0.15,
+  "training_orders": 396,
+  "validation_orders": 176,
+  "test_orders": 205,
+  "intended_use": "Portfolio demonstration of human-review prioritization",
+  "limitations": [
+    "Substantial supplier-level differences in test errors",
+    "False alarms and missed non-compliant orders",
+    "Fixed threshold does not guarantee a review-workload limit",
+    "Performance on unseen suppliers has not been established",
+    "Scores have not been established as calibrated probabilities"
+  ]
+}
