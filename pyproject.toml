@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "catboost>=1.2.10",
     "duckdb>=1.5.5",
+    "fastapi>=0.162.5",
     "interpret-core>=0.7.8",
     "matplotlib>=3.11.2",
     "numpy>=2.5.2",
@@ -14,6 +15,7 @@ dependencies = [
     "plotly>=7.0.0",
     "pyarrow>=25.0.1",
     "scikit-learn>=1.9.0",
+    "uvicorn>=0.54.0",
 ]
 
 [project.scripts]
