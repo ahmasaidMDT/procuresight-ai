@@ -1,0 +1,13 @@
+{
+  "features": [
+    "Quantity",
+    "Negotiated_Price",
+    "Negotiated_Order_Value",
+    "Discount_Percent"
+  ],
+  "reference_percentile": 95.0,
+  "threshold": 0.5561563177616418,
+  "score_rule": "-score_samples",
+  "flag_rule": "score >= threshold",
+  "sklearn_version": "1.9.0"
+}
